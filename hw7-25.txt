@@ -1,0 +1,32 @@
+1.What's a virtual machine?
+A. A virtual machine or VMs are allocated all/most resources, and are very heavy weight program. 
+2. What's the difference between a Container & a VM?
+A. The difference between VMs and containers are that VMs are more heavy weight programs and take up more resources than containers while containers are lightweight and are allocated resources by the user.
+3. What commands can you run to show all the processes running on a system?
+A. ps -e or -A to show all processes running on a comp
+4.What's the difference between a root account and a regular one?
+A. a root account has access to the whole computer and has the ablity to change things. While regular accounts have limited access or restrictions to what they can do.
+5. What are different methods for running commands using the powers of the root/admin account?
+A. sudo is the command to run to us the root/admin powers
+6. You have two folders on a server that look similar (# of files, sizes) but there are too many files for you to inspect them individually. How would you go about figuring all the differences?
+A. I would write a script that opens up the folder containng the files that are changed, then search/grep for the files that have the most recent time stamp changes and use the diff command to show me the diffrences between files.
+7. How do you stop a running process?
+A. control C
+8. How do you do it safely vs immediately?
+A. Safetly find the PID number and either taskkill application name or you can use sigterm filename. To immeadatly kill a process via command line you can do Cntrl-C 
+9. What happens when you type www.google.com in the broswer address bar and hit enter?
+A. The URL is parced (is it a URL or a search term?) | DNS look up | ARP Process (Address Resoultion Protocol) | Open socket or specific | HTTTPD Service - Request & Respond | TLS handshake.
+10. How would you check to see if a specific port at an IP address is available?
+A. To check if a specific port you could run one of two commands: nmap | or nc
+11.How might you figure out all the ports that are open for a TCP connection?
+A. Run netstat
+12.What is the difference between TCP and UDP? When would you use either option?
+A. TCP Transfer Content Protocol is sending your packets in the order you specifed and it makes sure everything gets delieverd. UDP User Datgram Protocol woll send your packets but there is always a guratnee that everything wont be sent and most times its out of order.
+13. How do two servers establish a TCP connection between themselves?
+A. There is a TCP Handshake between two servers to establish a connection
+14. What's the 3 way handshake?
+A. Its a nine step process that was explained way better during the video that was showed during class.
+15. How do you copy a file from one remote server to another?
+A. scp /path/to/file or rsync
+16. What's two-factor authentication and what issues does it seek to address?
+A. Two factor authencation is a way to increase the users access control to personal information, two factor authentication prompts the use that it has two ways for authenticating the user. This is usually a phone number and a paswword prompt.
